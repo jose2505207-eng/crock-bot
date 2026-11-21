@@ -1,21 +1,23 @@
 # Crock Bot
 
-An open-source, self-hostable AI chatbot inspired by Grok.
+An open-source, self-hosted alternative to xAI's Grok Bot: persistent AI agents that work on their own Linux machine, with a web UI you can reach from anywhere and any model you choose.
 
-> **Status:** early scaffold. Scope, stack, and features are still being defined.
+> **Status:** research and design. Nothing runs yet. See [docs/research.md](docs/research.md) and [docs/architecture.md](docs/architecture.md).
 
 ## Goals
 
-- Open source (MIT) and self-hostable
-- Bring your own model/provider
-- Clean, well-designed chat UI
+- Self-hosted on your own VPS; MIT licensed
+- Any model: API key or local runtime
+- Web UI reachable from anywhere
+- Agents run on a separate Linux machine, one sandbox per bot
+- Approvals before risky actions; secrets never shown to the model
 
 ## Project structure
 
 ```
 crock-bot/
 ├── src/                 # application code (stack TBD)
-├── docs/                # architecture and decision notes
+├── docs/                # research.md, architecture.md, decisions
 ├── .claude/             # shared agent settings (skills/plugins)
 ├── AGENTS.md            # instructions for coding agents
 ├── CONTRIBUTING.md

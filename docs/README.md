@@ -1,9 +1,4 @@
 # Docs
 
-Architecture notes and decision records live here.
-
-Open decisions:
-
-- Product scope (what "Grok-style" means for v1)
-- Stack (language, framework, hosting)
-- Model providers
+- [research.md](research.md): what Grok Bot is and how it works
+- [architecture.md](architecture.md): proposed design, risks, phases, open decisions

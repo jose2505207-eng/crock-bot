@@ -1,6 +1,6 @@
 # Agent instructions
 
-Crock Bot is an open-source, self-hostable AI chatbot. The stack is not chosen yet; do not assume one.
+Crock Bot is an open-source, self-hosted alternative to xAI's Grok Bot (persistent agents with their own Linux machine). Read `docs/research.md` and `docs/architecture.md` first. The architecture is a proposal and the stack is not chosen yet; do not assume one.
 
 ## Skills
 
