@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+.next/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*.log
+.claude/settings.local.json
